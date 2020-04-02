@@ -28,6 +28,70 @@ xMatters can add value with:
 <kbd>
   <img src="media/Freshservice Inbound.png">
 </kbd>
+4) **NOTE** When you imported the Workflow, it also imported 4 steps under the "Custom" Section
+   a) Freshservice - Create Incident (for more documentation on this step go HERE)
+   b) Freshservice - Create Note
+   c) Freshservice - Parse Note
+   d) Freshservice - Update Incident
+<kbd>
+  <img src="media/Freshservice Custom Steps.png">
+</kbd>   
+**NOTE** This also imported a HTTP Trigger under the "TRIGGERS" Section in Flow Designer that pasrses payloads that come in from Freshservice.
+5) In the Authenticating User Dropdown, click the API user (which should have the **REST Web Services User** role) you want to use. Click "Copy" to copy the URL it generates and save it for later. Reference General Notes section on how to create API user in xMatters.
+<kbd>
+  <img src="media/API User webhook.png">
+</kbd>
+6) Click the "x" on the top right of the canvas to get back to the other flows in the Workflow
+7) Click on "Freshservice - Engage with xMatters" and repeat steps 3-6 with the "Freshservice - Engage with xMatters" Step on the very left side of the canvas
+<kbd>
+  <img src="media/Freshservice Engage with xMatters.png">
+</kbd>
+8) Click on "Freshservice - Inform with xMatters" and repeat steps 3-5 with the "Freshservice - Inform with xMatters" Step on the very left side of the canvas
+<kbd>
+  <img src="media/Freshservice Inform with xMatters.png">
+</kbd>
+9) Before closing out of the Inform with xMatters canvas, double-click on the "Inform with xMatters Event" Step and type in your recipients you want to notify with a FYI notification (i.e Executive Group, FYI Group). This will be triggered when a public note is made on your incident
+<kbd>
+  <img src="media/Executives recipients FYI.png">
+</kbd>
+
+## Freshservice setup
+1) Click "Admin" on the bottom left, Click "Form Fields". Add a boolean at the bottom of the list and label it "Engage with xMatters and click "Save". This box is to trigger and engage additional on-call resources to help work on the incident (i.e invite to Slack channel/MS Teams, spin up a Zoom bridge and invite people, etc.)
+<kbd>
+  <img src="media/Admin form fields.png">
+</kbd>
+2) Click "Admin" on the bottom left, Click "Workflow Automator" under the Helpdesk Productivity section.
+<kbd>
+  <img src="media/Workflow Automator.png">
+</kbd>
+3) Click "New Automator" on the top right of the screen. Then click Ticket and give it a name (i.e. "xMatters Trigger") and a Description (i.e. "Will trigger a xMatters webhook when a high priority incident is raised")
+4) Drag and drop the appropriate steps onto the automator to have it look like this:
+<kbd>
+  <img src="media/Workflow Automator xMatters Trigger.png">
+</kbd>
+**NOTE** You can change the Priority to what you want. In my example, I only have Urgent and High Priority Tickets.
+5) When you get to "Trigger Webhook" Section, copy and paste the xMatters URL you got from step 5 in the xMatters set up into the "Callback URL" section.
+<kbd>
+  <img src="media/Webhook section Freshservice.png">
+</kbd>
+6) Scroll down to the Content Section and check all the boxes available and click "Done". Click Activate on the top right of the screen, then done.
+7) Repeat steps 3-6 using the screenshot example below, and label it "Engage with xMatters". This time, paste the xMatters URL you got in step 7 in the "Callback URL" section when setting up the Webhook.
+<kbd>
+  <img src="media/Engage checkbox automator.png">
+</kbd>
+**NOTE** This is making it so when that checkbox is checked in a ticket, it will trigger a xMatters event and any additional steps you have made in the flow. For now, it is a simple notification with the ticket information.
+8) Repeat steps 3-6 using the screenshot example below, and label it "Inform with xMatters". This time, paste the xMatters URL you got in step 8 in the "Callback URL" section when setting up the Webhook.
+<kbd>
+  <img src="media/Inform checkbox automator.png">
+</kbd>
+**NOTE** This will make it so you can add a public note in a Freshservice incident and will trigger a formatted notification with that information out.
+
+
+
+
+
+
+
 
 
 The repo should have the following files:
