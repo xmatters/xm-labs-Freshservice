@@ -40,7 +40,7 @@ Since these steps are already built, you now have a drag and droppable environme
    c) Freshservice - Parse Note
    d) Freshservice - Update Incident
 <kbd>
-  <img src="media/Freshservice Custom Steps.png">
+  <img src="media/Freshservice Custom Steps1.png">
 </kbd>
 
 **ALSO NOTE** This also imported a HTTP Trigger under the "TRIGGERS" Section in Flow Designer that parses payloads that come in from Freshservice.
