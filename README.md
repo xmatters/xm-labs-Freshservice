@@ -25,7 +25,10 @@ xMatters can add value with:
 1) Download the [FreshserviceITSM.zip](FreshserviceITSM.zip) file and import it into your xMatters instance. Steps to import a Workflow: [Here]( https://help.xmatters.com/ondemand/xmodwelcome/workflows/manage-workflows.htm#Import)
 2) Click on your new Freshservice Workflow, Click "FLOWS", Click "Freshservice Alert"
 3) After being presented with the canvas (see more about Flow Designer 101 [Here]( https://help.xmatters.com/ondemand/xmodwelcome/flowdesigner/laying-out-flow-designer.htm)), double-click on the "Freshservice - Assignment Alert - Freshservice inbound" trigger which should be at the very top of the canvas.
-4) 
+<kbd>
+  <img src="media/Freshservice Inbound.png">
+</kbd>
+
 
 The repo should have the following files:
 * **README.md** - This is the main page of the repo and will contain all the instructions and links. See below for document structure
