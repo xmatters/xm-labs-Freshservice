@@ -1,21 +1,26 @@
-# Instructions on creating the repo
-This file is divided up into two parts, the first is instructions on creating the repo and cloning the template, the second part is the template for the `README.md` file that will serve as the home page and installation instructions for the integration. 
+# Freshservice
+Freshservice is a cloud-based IT Help Desk and service management solution that enables organizations to simplify their IT operations. The solution offers features that include a ticketing system, self-service portal and knowledge-base. 
 
-Some examples to emulate:
-* [Logz.io](https://github.com/xmatters/xm-labs-logz.io-elk)
-* [StatusPage](https://github.com/xmatters/xm-labs-statuspage)
+[![Freshservice Integration](https://img.youtube.com/vi/Dj2sEaZzXi0/0.jpg)](https://www.youtube.com/watch?v=Dj2sEaZzXi0&feature=youtu.be)
 
-## 1. Create the repo
-[Create the repo](https://help.github.com/articles/create-a-repo/) using your own GitHub account. Please prefix the name of the repo with `xm-labs-` and all in lower case. When you create the repo don't add a README or LICENSE; this will make sure to initialize an empty repo. 
+# Pre-Requisites
+* [Freshservice](https://freshservice.com/) - You can use a trial version if you don't have a sandbox environment
+* xMatters account - If you don't have one, [get one](https://www.xmatters.com/signup)!
 
-## 2. Populate the repo
-There are two options here:
+# Files
+* [FreshserviceITSM.zip](FreshserviceITSM.zip) - Workflow containing all the communications and steps needed
 
-1. [Create from scratch](#create-from-scratch) - great for quick and easy start
-2. [Clone the template](#clone-the-template) - great for ensuring all the components are ready
+# How it works
+xMatters can add value with:
+  1) Creating Freshservice Incidents
+  2) Finding and assigning the correct on-call resource to an incident
+  3) Gathering additional on-call resources to help resolve the incident (i.e. notifing, push people into a conference bridge, push people to a chat-ops channel (Slack/MS Teams)
+  4) Informing business stakeholders with an FYI notification
+  5) Providing an audit trail of all actions that were taken back into Freshservice Incident (i.e device delivery/response/comments of notifications)
 
-### Create from scratch
-Creating from scratch is great if you just want to dive in and get the repo started. Just make sure you have all the necessary files and formats. 
+# Installation
+
+## xMatters set up 
 
 The repo should have the following files:
 * **README.md** - This is the main page of the repo and will contain all the instructions and links. See below for document structure
