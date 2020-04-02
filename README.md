@@ -43,7 +43,7 @@ Since these steps are already built, you now have a drag and droppable environme
   <img src="media/Freshservice Custom Steps.png">
 </kbd>
 
-**NOTE** This also imported a HTTP Trigger under the "TRIGGERS" Section in Flow Designer that pasrses payloads that come in from Freshservice.
+**ALSO NOTE** This also imported a HTTP Trigger under the "TRIGGERS" Section in Flow Designer that parses payloads that come in from Freshservice.
 
 5) In the Authenticating User Dropdown, click the API user (which should have the **REST Web Services User** role) you want to use. Click "Copy" to copy the URL it generates and save it for later. Reference General Notes section on how to create API user in xMatters.
 <kbd>
