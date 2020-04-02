@@ -112,7 +112,7 @@ Since these steps are already built, you now have a drag and droppable environme
 
 6) Scroll down to the Content Section and check all the boxes available and click "Done". Click Activate on the top right of the screen, then done.
 
-7) Repeat steps 3-6 using the screenshot example below, and label it "Engage with xMatters". This time, paste the xMatters URL you got in step 7 in the "Callback URL" section when setting up the Webhook.
+7) Repeat steps 3-6 using the screenshot example below, and label it "Engage with xMatters". This time, paste the xMatters URL you got in step 7 (xMatters Setup) in the "Callback URL" section when setting up the Webhook.
 
 <kbd>
   <img src="media/Engage checkbox automator.png">
@@ -120,7 +120,7 @@ Since these steps are already built, you now have a drag and droppable environme
 
 **NOTE** This is making it so when that checkbox is checked in a ticket, it will trigger a xMatters event and any additional steps you have made in the flow. For now, it is a simple notification with the ticket information.
 
-8) Repeat steps 3-6 using the screenshot example below, and label it "Inform with xMatters". This time, paste the xMatters URL you got in step 8 in the "Callback URL" section when setting up the Webhook.
+8) Repeat steps 3-6 using the screenshot example below, and label it "Inform with xMatters". This time, paste the xMatters URL you got in step 8 (xMatters Setup) in the "Callback URL" section when setting up the Webhook.
 
 <kbd>
   <img src="media/Inform checkbox automator.png">
@@ -128,8 +128,16 @@ Since these steps are already built, you now have a drag and droppable environme
 
 **NOTE** This will make it so you can add a public note in a Freshservice incident and will trigger a formatted notification with that information out.
 
+## General Notes
+1) Under the forms section in the Workflow, please make sure your API user has "Sender Permissions" to execute what it needs to. To find "Sender Permissions", click on "Web Services" dropdown, click on "Sender Permssions", then add your API user into the list.
 
+<kbd>
+  <img src="media/List of sender permission.png">
+</kbd>
 
+<kbd>
+  <img src="media/Sender Permission location.png">
+</kbd>
 
 
 
