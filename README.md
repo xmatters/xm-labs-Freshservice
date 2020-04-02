@@ -57,21 +57,31 @@ Since these steps are already built, you now have a drag and droppable environme
   <img src="media/API User webhook.png">
 </kbd>
 
-6) Click the "x" on the top right of the canvas to get back to the other flows in the Workflow
+6) On the top right of the canvas, click on "Components", then click on "Endpoints", then "FreshService. Change the "Base URL" to whatever your domain is. Make sure the "Endpoint Type" is Basic. Put the Username and Password in for the Freshservice API user so xMatters can go back to Freshservice and evoke API calls. Double-check that the "Preemptive" box is checked.
 
-7) Click on "Freshservice - Engage with xMatters" and repeat steps 3-6 with the "Freshservice - Engage with xMatters" Step on the very left side of the canvas.
+<kbd>
+  <img src="media/Enpoint location.png">
+</kbd>
+
+<kbd>
+  <img src="media/Freshservice Endpoint.png">
+</kbd>
+
+7) Click the "x" on the top right of the canvas to get back to the other flows in the Workflow
+
+8) Click on "Freshservice - Engage with xMatters" and repeat steps 3 & 5 with the "Freshservice - Engage with xMatters" Step on the very left side of the canvas.
 
 <kbd>
   <img src="media/Freshservice Engage with xMatters.png">
 </kbd>
 
-8) Click on "Freshservice - Inform with xMatters" and repeat steps 3-5 with the "Freshservice - Inform with xMatters" Step on the very left side of the canvas
+9) Click on "Freshservice - Inform with xMatters" and repeat steps 3 & 5 with the "Freshservice - Inform with xMatters" Step on the very left side of the canvas
 
 <kbd>
   <img src="media/Freshservice Inform with xMatters.png">
 </kbd>
 
-9) Before closing out of the Inform with xMatters canvas, double-click on the "Inform with xMatters Event" Step and type in your recipients you want to notify with a FYI notification (i.e Executive Group, FYI Group). This will be triggered when a public note is made on your incident
+10) Before closing out of the Inform with xMatters canvas, double-click on the "Inform with xMatters Event" Step and type in your recipients you want to notify with a FYI notification (i.e Executive Group, FYI Group). This will be triggered when a public note is made on your incident
 
 <kbd>
   <img src="media/Executives recipients FYI.png">
