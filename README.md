@@ -36,9 +36,13 @@ Since these steps are already built, you now have a drag and droppable environme
 
 4) **NOTE** When you imported the Workflow, it also imported 4 steps under the "Custom" Section
    a) Freshservice - Create Incident (for more documentation on this step go HERE)
+   
    b) Freshservice - Create Note
+   
    c) Freshservice - Parse Note
+   
    d) Freshservice - Update Incident
+   
 <kbd>
   <img src="media/Freshservice Custom Steps1.png">
 </kbd>
