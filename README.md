@@ -132,11 +132,11 @@ Since these steps are already built, you now have a drag and droppable environme
 1) Under the forms section in the Workflow, please make sure your API user has "Sender Permissions" to execute what it needs to. To find "Sender Permissions", click on "Web Services" dropdown, click on "Sender Permssions", then add your API user into the list.
 
 <kbd>
-  <img src="media/List of sender permission.png">
+  <img src="media/Sender Permission location.png">
 </kbd>
 
 <kbd>
-  <img src="media/Sender Permission location.png">
+  <img src="media/List of sender permission.png">
 </kbd>
 
 
