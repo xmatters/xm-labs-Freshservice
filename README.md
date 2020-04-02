@@ -35,6 +35,7 @@ Since these steps are already built, you now have a drag and droppable environme
 </kbd>
 
 4) **NOTE** When you imported the Workflow, it also imported 4 steps under the "Custom" Section
+
    a) Freshservice - Create Incident (for more documentation on this step go HERE)
    
    b) Freshservice - Create Note
