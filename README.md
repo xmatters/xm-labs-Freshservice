@@ -84,7 +84,7 @@ Since these steps are already built, you now have a drag and droppable environme
 10) Before closing out of the Inform with xMatters canvas, double-click on the "Inform with xMatters Event" Step and type in your recipients you want to notify with a FYI notification (i.e Executive Group, FYI Group). This will be triggered when a public note is made on your incident
 
 <kbd>
-  <img src="media/Executives recipients FYI.png" width="200" height="200">
+  <img src="media/Executives recipients FYI.png" width="300" height="200">
 </kbd>
 
 ## Freshservice setup
