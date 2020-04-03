@@ -8,7 +8,7 @@ Freshservice is a cloud-based IT Help Desk and service management solution that 
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com/signup)!
 
 # Files
-* [FreshserviceITSM.zip](FreshserviceITSM.zip) - Workflow containing all the communications and steps needed
+PUT ZIP FILE HERE - Workflow containing all the communications and steps needed
 * Video file of showing the integration
 
 # How it works
@@ -149,7 +149,10 @@ Since these steps are already built, you now have a drag and droppable environme
   <img src="media/List of sender permission.png" width="200" height="200">
 </kbd>
 
-2) 
+# Testing
+1) Create a new Incident in Freshservice with the right priority to make sure it triggers the "Workflow Automator". Additionally, make sure there is a Group Assignment in the ticket. (**NOTE** The user that responds from the alert needs to be a part of the group in Freshservice otherwise it will error out). This will notify the on-call resource in xMatters for that group (**If you have a "Database Group" in Freshservice, you need to add it to xMatters along with the same member(s)").** That member hits accept to take ownership of the Freshservice Incident. xMatters should update the Agent Name in the incident, change the status to "In Progress", and feed in all the device deliverys, comments, and event ID into the Notes of the Incident. 
+
+2) To test the "Engage with xMatters" part
 
 # Troubleshooting
  If it doesn't work, you can reference the "Activity Stream" of the integration. Please reference screenshot below to find the Activity Stream and what it should look like. You can look through the logs to see what the error is.
