@@ -159,11 +159,11 @@ Since these steps are already built, you now have a drag and droppable environme
 2) **Engage with xMatters**: This will allow you to engage multiple resources onto the incident without leaving the comfort of your own Freshservice. After following the set up above, you will be able to add Freshservice "Tags" into the ticket. For example, if you wanted to engage the "Software Development" group, you would add the "Software Development" tag to your Incident, then check the "Engage with xMatters" box in your incident to trigger the notification to the on-call resource. Keep in mind, this group needs to exist in xMatters as it is targeting that group/on-call resource. Anyone who response with Acknowledge or adds a comment, xMatters will feed that information back into the Incident for visibility/post-mortem
 
 <kbd>
-  <img src="media/Engage record back to Freshservice.png" width="400" height="200">
+  <img src="media/Freshservice Checkbox Engage and Tag.png" width="200" height="400">
 </kbd>
 <br>
 <kbd>
-  <img src="media/Freshservice Checkbox Engage and Tag.png" width="200" height="400">
+  <img src="media/Engage record back to Freshservice.png" width="400" height="200">
 </kbd>
 
 3) **Inform with xMatters**: This will allow you to keep people up to date with an FYI notification of what is going on with the incident. All you need to do here is add a public comment to the incident and xMatters will take care of the rest.
