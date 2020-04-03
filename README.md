@@ -57,6 +57,20 @@ Since these steps are already built, you now have a drag and droppable environme
   <img src="media/API User webhook.png" width="400" height="200">
 </kbd>
 
+6) Back on the canvas, double click on "Freshservice - Update Ticket" Step that is attached to the "Acknowledge response option. You will need to modify the Agent Email Input to match with the Freshservice Agent. Typically the work email is attached to the Agent in Freshservice. The example used here is the "respondedTo.by.targetName" which is the "Username" in xMatters which is typically first initial with last name (i.e. bsmith for Bob Smith). If your username in xMatters is not the same as the beginning of your work email in Freshservice, please change it in your profile (please reference screenshots for this). If they match, then just type your domain of your email where it says "@domain.com".
+
+<kbd>
+  <img src="media/API User webhook.png" width="400" height="200">
+</kbd>
+
+<kbd>
+  <img src="media/API User webhook.png" width="400" height="200">
+</kbd>
+
+<kbd>
+  <img src="media/API User webhook.png" width="400" height="200">
+</kbd>
+
 6) On the top right of the canvas, click on "Components", then click on "Endpoints", then "FreshService. Change the "Base URL" to whatever your domain is. Make sure the "Endpoint Type" is Basic. Put the Username and Password in for the Freshservice API user so xMatters can go back to Freshservice and evoke API calls. Double-check that the "Preemptive" box is checked.
 
 <kbd>
