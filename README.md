@@ -60,12 +60,11 @@ Since these steps are already built, you now have a drag and droppable environme
 6) On the top right of the canvas, click on "Components", then click on "Endpoints", then "FreshService. Change the "Base URL" to whatever your domain is. Make sure the "Endpoint Type" is Basic. Put the Username and Password in for the Freshservice API user so xMatters can go back to Freshservice and evoke API calls. Double-check that the "Preemptive" box is checked.
 
 <kbd>
-  <img src="media/Enpoint location.png" width="200" height="200">
+  <img src="media/Enpoint location.png" width="275" height="200">
 </kbd>
-<br>
-<br>
+
 <kbd>
-  <img src="media/Freshservice Endpoint.png" width="200" height="200">
+  <img src="media/Freshservice Endpoint.png" width="275" height="200">
 </kbd>
 
 7) Click the "x" on the top right of the canvas to get back to the other flows in the Workflow
