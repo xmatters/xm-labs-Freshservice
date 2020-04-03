@@ -46,7 +46,7 @@ Since these steps are already built, you now have a drag and droppable environme
    d) Freshservice - Update Incident
    
 <kbd>
-  <img src="media/Freshservice Custom Steps1.png">
+  <img src="media/Freshservice Custom Steps1.png" width="200" height="400">
 </kbd>
 
 **ALSO NOTE** This also imported a HTTP Trigger under the "TRIGGERS" Section in Flow Designer that parses payloads that come in from Freshservice.
@@ -54,17 +54,17 @@ Since these steps are already built, you now have a drag and droppable environme
 5) In the Authenticating User Dropdown, click the API user (which should have the **REST Web Services User** role) you want to use. Click "Copy" to copy the URL it generates and save it for later. Reference General Notes section on how to create API user in xMatters.
 
 <kbd>
-  <img src="media/API User webhook.png">
+  <img src="media/API User webhook.png" width="400" height="200">
 </kbd>
 
 6) On the top right of the canvas, click on "Components", then click on "Endpoints", then "FreshService. Change the "Base URL" to whatever your domain is. Make sure the "Endpoint Type" is Basic. Put the Username and Password in for the Freshservice API user so xMatters can go back to Freshservice and evoke API calls. Double-check that the "Preemptive" box is checked.
 
 <kbd>
-  <img src="media/Enpoint location.png">
+  <img src="media/Enpoint location.png" width="400" height="200">
 </kbd>
 
 <kbd>
-  <img src="media/Freshservice Endpoint.png">
+  <img src="media/Freshservice Endpoint.png" width="400" height="200">
 </kbd>
 
 7) Click the "x" on the top right of the canvas to get back to the other flows in the Workflow
@@ -72,19 +72,19 @@ Since these steps are already built, you now have a drag and droppable environme
 8) Click on "Freshservice - Engage with xMatters" and repeat steps 3 & 5 with the "Freshservice - Engage with xMatters" Step on the very left side of the canvas.
 
 <kbd>
-  <img src="media/Freshservice Engage with xMatters.png">
+  <img src="media/Freshservice Engage with xMatters.png" width="400" height="200">
 </kbd>
 
 9) Click on "Freshservice - Inform with xMatters" and repeat steps 3 & 5 with the "Freshservice - Inform with xMatters" Step on the very left side of the canvas
 
 <kbd>
-  <img src="media/Freshservice Inform with xMatters.png">
+  <img src="media/Freshservice Inform with xMatters.png" width="400" height="200">
 </kbd>
 
 10) Before closing out of the Inform with xMatters canvas, double-click on the "Inform with xMatters Event" Step and type in your recipients you want to notify with a FYI notification (i.e Executive Group, FYI Group). This will be triggered when a public note is made on your incident
 
 <kbd>
-  <img src="media/Executives recipients FYI.png">
+  <img src="media/Executives recipients FYI.png" width="400" height="200">
 </kbd>
 
 ## Freshservice setup
@@ -92,24 +92,24 @@ Since these steps are already built, you now have a drag and droppable environme
 1) Click "Admin" on the bottom left, Click "Form Fields". Add a boolean at the bottom of the list and label it "Engage with xMatters and click "Save". This box is to trigger and engage additional on-call resources to help work on the incident (i.e invite to Slack channel/MS Teams, spin up a Zoom bridge and invite people, etc.)
 
 <kbd>
-  <img src="media/Admin form fields.png">
+  <img src="media/Admin form fields.png" width="400" height="200">
 </kbd>
 
 <kbd>
-  <img src="media/Ticket Engage with xMatters.png">
+  <img src="media/Ticket Engage with xMatters.png" width="400" height="200">
 </kbd>
 
 2) Click "Admin" on the bottom left, Click "Workflow Automator" under the Helpdesk Productivity section.
 
 <kbd>
-  <img src="media/Workflow Automator.png">
+  <img src="media/Workflow Automator.png" width="400" height="200">
 </kbd>
 
 3) Click "New Automator" on the top right of the screen. Then click Ticket and give it a name (i.e. "xMatters Trigger") and a Description (i.e. "Will trigger a xMatters webhook when a high priority incident is raised")
 4) Drag and drop the appropriate steps onto the automator to have it look like this:
 
 <kbd>
-  <img src="media/Workflow Automator xMatters Trigger.png">
+  <img src="media/Workflow Automator xMatters Trigger.png" width="400" height="200">
 </kbd>
 
 **NOTE** You can change the Priority to what you want. In my example, I only have Urgent and High Priority Tickets.
@@ -117,7 +117,7 @@ Since these steps are already built, you now have a drag and droppable environme
 5) When you get to "Trigger Webhook" Section, copy and paste the xMatters URL you got from step 5 in the xMatters set up into the "Callback URL" section.
 
 <kbd>
-  <img src="media/Webhook section Freshservice.png">
+  <img src="media/Webhook section Freshservice.png" width="400" height="200">
 </kbd>
 
 6) Scroll down to the Content Section and check all the boxes available and click "Done". Click Activate on the top right of the screen, then done.
@@ -125,7 +125,7 @@ Since these steps are already built, you now have a drag and droppable environme
 7) Repeat steps 3-6 using the screenshot example below, and label it "Engage with xMatters". This time, paste the xMatters URL you got in step 7 (xMatters Setup) in the "Callback URL" section when setting up the Webhook.
 
 <kbd>
-  <img src="media/Engage checkbox automator.png">
+  <img src="media/Engage checkbox automator.png" width="400" height="200">
 </kbd>
 
 **NOTE** This is making it so when that checkbox is checked in a ticket, it will trigger a xMatters event and any additional steps you have made in the flow. For now, it is a simple notification with the ticket information.
@@ -133,7 +133,7 @@ Since these steps are already built, you now have a drag and droppable environme
 8) Repeat steps 3-6 using the screenshot example below, and label it "Inform with xMatters". This time, paste the xMatters URL you got in step 8 (xMatters Setup) in the "Callback URL" section when setting up the Webhook.
 
 <kbd>
-  <img src="media/Inform checkbox automator.png">
+  <img src="media/Inform checkbox automator.png" width="400" height="200">
 </kbd>
 
 **NOTE** This will make it so you can add a public note in a Freshservice incident and will trigger a formatted notification with that information out.
@@ -142,11 +142,11 @@ Since these steps are already built, you now have a drag and droppable environme
 1) Under the forms section in the Workflow, please make sure your API user has "Sender Permissions" to execute what it needs to. To find "Sender Permissions", click on "Web Services" dropdown, click on "Sender Permssions", then add your API user into the list.
 
 <kbd>
-  <img src="media/Sender Permission location.png">
+  <img src="media/Sender Permission location.png" width="400" height="200">
 </kbd>
 
 <kbd>
-  <img src="media/List of sender permission.png">
+  <img src="media/List of sender permission.png" width="200" height="200">
 </kbd>
 
 2) 
