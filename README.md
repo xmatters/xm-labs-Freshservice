@@ -32,7 +32,7 @@ Since these steps are already built, you now have a drag and droppable environme
 3) After being presented with the canvas (see more about Flow Designer 101 [Here]( https://help.xmatters.com/ondemand/xmodwelcome/flowdesigner/laying-out-flow-designer.htm)), double-click on the "Freshservice - Assignment Alert - Freshservice inbound" trigger which should be at the very top of the canvas.
 
 <kbd>
-  <img src="media/Freshservice Inbound.png">
+  <img src="media/Freshservice Inbound.png" width="200" height="400">
 </kbd>
 
 4) **NOTE** When you imported the Workflow, it also imported 4 steps under the "Custom" Section
@@ -149,9 +149,10 @@ Since these steps are already built, you now have a drag and droppable environme
   <img src="media/List of sender permission.png">
 </kbd>
 
+2) 
 
-
-
+# Troubleshooting
+ If it doesn't work, you can reference the "Activity Stream" of the integration. Please reference both screen shots to find the Activity Stream and what it should look like. You can look through the logs to see what the error is.
 
 
 The repo should have the following files:
