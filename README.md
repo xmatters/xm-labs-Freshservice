@@ -109,7 +109,7 @@ Since these steps are already built, you now have a drag and droppable environme
 4) Drag and drop the appropriate steps onto the automator to have it look like this:
 
 <kbd>
-  <img src="media/Workflow Automator xMatters Trigger.png" width="400" height="200">
+  <img src="media/Workflow Automator xMatters Trigger.png" width="325" height="200">
 </kbd>
 
 **NOTE** You can change the Priority to what you want. In my example, I only have Urgent and High Priority Tickets.
@@ -117,7 +117,7 @@ Since these steps are already built, you now have a drag and droppable environme
 5) When you get to "Trigger Webhook" Section, copy and paste the xMatters URL you got from step 5 in the xMatters set up into the "Callback URL" section.
 
 <kbd>
-  <img src="media/Webhook section Freshservice.png" width="400" height="200">
+  <img src="media/Webhook section Freshservice.png" width="325" height="200">
 </kbd>
 
 6) Scroll down to the Content Section and check all the boxes available and click "Done". Click Activate on the top right of the screen, then done.
@@ -125,7 +125,7 @@ Since these steps are already built, you now have a drag and droppable environme
 7) Repeat steps 3-6 using the screenshot example below, and label it "Engage with xMatters". This time, paste the xMatters URL you got in step 7 (xMatters Setup) in the "Callback URL" section when setting up the Webhook.
 
 <kbd>
-  <img src="media/Engage checkbox automator.png" width="400" height="200">
+  <img src="media/Engage checkbox automator.png" width="325" height="200">
 </kbd>
 
 **NOTE** This is making it so when that checkbox is checked in a ticket, it will trigger a xMatters event and any additional steps you have made in the flow. For now, it is a simple notification with the ticket information.
@@ -133,7 +133,7 @@ Since these steps are already built, you now have a drag and droppable environme
 8) Repeat steps 3-6 using the screenshot example below, and label it "Inform with xMatters". This time, paste the xMatters URL you got in step 8 (xMatters Setup) in the "Callback URL" section when setting up the Webhook.
 
 <kbd>
-  <img src="media/Inform checkbox automator.png" width="400" height="200">
+  <img src="media/Inform checkbox automator.png" width="325" height="200">
 </kbd>
 
 **NOTE** This will make it so you can add a public note in a Freshservice incident and will trigger a formatted notification with that information out.
