@@ -152,7 +152,18 @@ Since these steps are already built, you now have a drag and droppable environme
 2) 
 
 # Troubleshooting
- If it doesn't work, you can reference the "Activity Stream" of the integration. Please reference both screen shots to find the Activity Stream and what it should look like. You can look through the logs to see what the error is.
+ If it doesn't work, you can reference the "Activity Stream" of the integration. Please reference screenshot below to find the Activity Stream and what it should look like. You can look through the logs to see what the error is.
+
+<kbd>
+  <img src="media/Flow Designer Activity.png" width="400" height="200">
+</kbd>
+
+
+
+
+
+
+
 
 
 The repo should have the following files:
