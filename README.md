@@ -8,7 +8,7 @@ Freshservice is a cloud-based IT Help Desk and service management solution that 
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com/signup)!
 
 # Files
-* [FreshserviceITSMv2.zip](FreshserviceITSMv2.zip) - Workflow containing all the communications and steps needed
+* [FreshserviceITSM.zip](FreshserviceITSM.zip) - Workflow containing all the communications and steps needed
 * Video file of showing the integration
 
 # How it works
@@ -25,7 +25,7 @@ Since these steps are already built, you now have a drag and droppable environme
 
 ## xMatters set up 
 
-1) Download the [FreshserviceITSMv2.zip](FreshserviceITSMv2.zip) file and import it into your xMatters instance. Steps to import a Workflow: [Here]( https://help.xmatters.com/ondemand/xmodwelcome/workflows/manage-workflows.htm#Import)
+1) Download the [FreshserviceITSM.zip](FreshserviceITSM.zip) file and import it into your xMatters instance. Steps to import a Workflow: [Here]( https://help.xmatters.com/ondemand/xmodwelcome/workflows/manage-workflows.htm#Import)
 
 2) Click on your new Freshservice Workflow, Click "FLOWS", Click "Freshservice Alert"
 
