@@ -57,7 +57,7 @@ Since these steps are already built, you now have a drag and droppable environme
   <img src="media/API User webhook.png" width="400" height="200">
 </kbd>
 
-6) Back on the canvas, double click on "Freshservice - Update Ticket" Step that is attached to the "Acknowledge response option. You will need to modify the Agent Email Input to match with the Freshservice Agent. Typically the work email is attached to the Agent in Freshservice. The example used here is the "respondedTo.by.targetName" which is the "Username" in xMatters which is typically first initial with last name (i.e. bsmith for Bob Smith). If your username in xMatters is not the same as the beginning of your work email in Freshservice, please change it in your profile (please reference screenshots for this). If they match, then just type your domain of your email where it says "@domain.com".
+6) Back on the canvas, double click on "Freshservice - Update Ticket" Step that is attached to the "Acknowledge response option. You will need to modify the Agent Email Input to match with the Freshservice Agent. Typically the work email is attached to the Agent in Freshservice. The example used here is the "respondedTo.by.targetName" which is the "Username" in xMatters which is typically first initial with last name (i.e. bsmith for Bob Smith). If your username in xMatters is not the same as the beginning of your work email in Freshservice, please change it in your xMatters profile (please reference screenshots for this). If they match, then just type your domain of your email where it says "@domain.com".
 
 <kbd>
   <img src="media/Update Freshservice Step FD.png" width="200" height="200">
@@ -75,7 +75,7 @@ Since these steps are already built, you now have a drag and droppable environme
   <img src="media/Change Username.png" width="400" height="200">
 </kbd>
 
-6) On the top right of the canvas, click on "Components", then click on "Endpoints", then "FreshService. Change the "Base URL" to whatever your domain is. Make sure the "Endpoint Type" is Basic. Put the Username and Password in for the Freshservice API user so xMatters can go back to Freshservice and evoke API calls. Double-check that the "Preemptive" box is checked.
+7) On the top right of the canvas, click on "Components", then click on "Endpoints", then "FreshService. Change the "Base URL" to whatever your domain is. Make sure the "Endpoint Type" is Basic. Put the Username and Password in for the Freshservice API user so xMatters can go back to Freshservice and evoke API calls. Double-check that the "Preemptive" box is checked.
 
 <kbd>
   <img src="media/Enpoint location.png" width="275" height="200">
@@ -85,21 +85,21 @@ Since these steps are already built, you now have a drag and droppable environme
   <img src="media/Freshservice Endpoint.png" width="275" height="200">
 </kbd>
 
-7) Click the "x" on the top right of the canvas to get back to the other flows in the Workflow
+8) Click the "x" on the top right of the canvas to get back to the other flows in the Workflow
 
-8) Click on "Freshservice - Engage with xMatters" and repeat steps 3 & 5 with the "Freshservice - Engage with xMatters" Step on the very left side of the canvas.
+9) Click on "Freshservice - Engage with xMatters" and repeat steps 3 & 5 with the "Freshservice - Engage with xMatters" Step on the very left side of the canvas.
 
 <kbd>
   <img src="media/Freshservice Engage with xMatters.png" width="300" height="200">
 </kbd>
 
-9) Click on "Freshservice - Inform with xMatters" and repeat steps 3 & 5 with the "Freshservice - Inform with xMatters" Step on the very left side of the canvas
+10) Click on "Freshservice - Inform with xMatters" and repeat steps 3 & 5 with the "Freshservice - Inform with xMatters" Step on the very left side of the canvas
 
 <kbd>
   <img src="media/Freshservice Inform with xMatters.png" width="300" height="200">
 </kbd>
 
-10) Before closing out of the Inform with xMatters canvas, double-click on the "Inform with xMatters Event" Step and type in your recipients you want to notify with a FYI notification (i.e Executive Group, FYI Group). This will be triggered when a public note is made on your incident
+11) Before closing out of the Inform with xMatters canvas, double-click on the "Inform with xMatters Event" Step and type in your recipients you want to notify with a FYI notification (i.e Executive Group, FYI Group). This will be triggered when a public note is made on your incident
 
 <kbd>
   <img src="media/Executives recipients FYI.png" width="300" height="200">
