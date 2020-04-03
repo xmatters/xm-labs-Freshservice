@@ -150,9 +150,27 @@ Since these steps are already built, you now have a drag and droppable environme
 </kbd>
 
 # Testing
-1) Create a new Incident in Freshservice with the right priority to make sure it triggers the "Workflow Automator". Additionally, make sure there is a Group Assignment in the ticket. (**NOTE** The user that responds from the alert needs to be a part of the group in Freshservice otherwise it will error out). This will notify the on-call resource in xMatters for that group (**If you have a "Database Group" in Freshservice, you need to add it to xMatters along with the same member(s)").** That member hits accept to take ownership of the Freshservice Incident. xMatters should update the Agent Name in the incident, change the status to "In Progress", and feed in all the device deliverys, comments, and event ID into the Notes of the Incident. 
+1) **Ticket Assignment** Create a new Incident in Freshservice with the right priority to make sure it triggers the "Workflow Automator". Additionally, make sure there is a Group Assignment in the ticket. (**NOTE** The user that responds from the alert needs to be a part of the group in Freshservice otherwise it will error out). This will notify the on-call resource in xMatters for that group (**If you have a "Database Group" in Freshservice, you need to add it to xMatters along with the same member(s)).** That member hits accept to take ownership of the Freshservice Incident. xMatters should update the Agent Name in the incident, change the status to "In Progress", and feed in all the device deliverys, comments, and event ID into the Notes of the Incident. 
 
-2) To test the "Engage with xMatters" part
+<kbd>
+  <img src="media/Update Freshservice Ticket.png" width="400" height="200">
+</kbd>
+
+2) **Engage with xMatters**: This will allow you to engage multiple resources onto the incident without leaving the comfort of your own Freshservice. After following the set up above, you will be able to add Freshservice "Tags" into the ticket. For example, if you wanted to engage the "Software Development" group, you would add the "Software Development" tag to your Incident, then check the "Engage with xMatters" box in your incident to trigger the notification to the on-call resource. Keep in mind, this group needs to exist in xMatters as it is targeting that group/on-call resource. Anyone who response with Acknowledge or adds a comment, xMatters will feed that information back into the Incident for visibility/post-mortem
+
+<kbd>
+  <img src="media/Engage record back to Freshservice.png" width="400" height="200">
+</kbd>
+<br>
+<kbd>
+  <img src="media/Freshservice Checkbox Engage and Tag.png" width="200" height="400">
+</kbd>
+
+3) **Inform with xMatters**: This will allow you to keep people up to date with an FYI notification of what is going on with the incident. All you need to do here is add a public comment to the incident and xMatters will take care of the rest.
+
+<kbd>
+  <img src="media/Public Freshservice Note for FYI.png" width="400" height="200">
+</kbd>
 
 # Troubleshooting
  If it doesn't work, you can reference the "Activity Stream" of the integration. Please reference screenshot below to find the Activity Stream and what it should look like. You can look through the logs to see what the error is.
@@ -161,128 +179,3 @@ Since these steps are already built, you now have a drag and droppable environme
   <img src="media/Flow Designer Activity.png" width="400" height="200">
 </kbd>
 
-
-
-
-
-
-
-
-
-The repo should have the following files:
-* **README.md** - This is the main page of the repo and will contain all the instructions and links. See below for document structure
-* **LICENSE** - This is the license to cover copying and such. Just copy the contents of [this file](https://github.com/xmatters/xm-labs-template/blob/master/LICENSE)
-* **/media/*** - Directory for holding screenshots or videos
-* As needed:
-   * **Workflow.zip** - Helpful for packaging one or more steps for easy import. Also necessary for any forms and templates
-   * **somescript.js** - If it makes more sense to just include a javascript file that gets copy/pasted then name it appropriately
-
-The **README.md** file should have the following structure and contents
-* **Name**
-   * Quick, two line description of the entry
-   * Link to disclaimer image: https://raw.githubusercontent.com/xmatters/xMatters-Labs/master/media/disclaimer.png. Note that when clicked, the browser is sent here: https://support.xmatters.com/hc/en-us/community/topics
-* **Pre-Requisites**
-   * A list of pre-reqs to use the entry. Versions where applicable are helpful. 
-* **Files**
-   * A list of necessary files. If there is a workflow.zip file add an entry here with a link. 
-* **How it works**
-   * An in-depth description of how it works. Especially any tricky or confusing bits
-* **Installation**
-   * Installation details. Use whatever order makes sense
-   * **xMatters**
-   * **"Other"**
-* **Testing**
-   * How do I know it's working? What should I expect?
-* **Troubleshooting**
-   * Point to docs in the help walk through the pieces of the "pipeline" and where to inspect for errors or broken bits
-
-### Clone the template
-*Note*: These instructions use git in the terminal. The GitHub desktop client is rather limited and likely won't save you any headaches. 
-
-Open a command line and do the following. Where `MY_NEW_REPO_NAME_HERE` is the name of your GitHub repo and `MY_NEW_REPO_URL` is the url generated when you create the new repo. 
-
-```bash
-# Clone the template repo to the local file system. 
-git clone https://github.com/xmatters/xm-labs-template.git
-# Change the directory name to avoid confusion, then cd into it
-mv xm-labs-template MY_NEW_REPO_NAME_HERE
-cd MY_NEW_REPO_NAME_HERE
-# Remove the template git history
-rm -Rf .git/
-# Initialize the new git repo
-git init
-# Point this repo to the one on GitHub
-git remote add origin https://github.com/MY_NEW_REPO_URL.git
-# Add all files in the current directory and commit to staging
-git add .
-git commit -m "initial commit"
-# Push to cloud!
-git push origin master
-```
-
-## 3. Make updates
-Then, make the updates to the `README.md` file and add any other files necessary. `README.md` files are written in GitHub-flavored markdown, see [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for a quick reference. 
-
-
-## 4. Push to GitHub
-Periodically, you will want to do a `git commit` to stash the changes locally. Then, when you are ready or need to step away, do a `git push origin master` to push the local changes to github.com. 
-
-## 5. Request to add to xM Labs
-Once you are all finished, let Travis know and he will then fork it to the xMatters account and update the necessary links in the xM Labs main page. From there if you update your repo, those changes can be merged into the xMatters account repo and everything will be kept up to date!
-
-# Template below:
----
-
-# Product Name Goes Here
-A note about what the product is and what this integration/scriptlet is all about. Check out the sweet video [here](media/mysweetvideo.mov). Be sure to indicate what type of integration or enhancement you're building! (One-way or closed-loop integration? Script library? Feature update? Enhancement to an existing integration?)
-
-<kbd>
-  <a href="https://support.xmatters.com/hc/en-us/community/topics"><img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png"></a>
-</kbd>
-
-# Pre-Requisites
-* Version 453 of App XYZ
-* Account in Application ABC
-* xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
-
-# Files
-* [ExampleCommPlan.zip](ExampleCommPlan.zip) - This is an example comm plan to help get started. (If it doesn't make sense to have a full communication plan, then you can just use a couple javascript files like the one below.)
-* [EmailMessageTemplate.html](EmailMessageTemplate.html) - This is an example HTML template for emails and push messages. 
-* [FileA.js](FileA.js) - An example javascript file to be pasted into a Shared Library in the Integration builder. Note the comments
-
-# How it works
-Add some info here detailing the overall architecture and how the integration works. The more information you can add, the more helpful this sections becomes. For example: An action happens in Application XYZ which triggers the thingamajig to fire a REST API call to the xMatters inbound integration on the imported communication plan. The integration script then parses out the payload and builds an event and passes that to xMatters. 
-
-# Installation
-Details of the installation go here. 
-
-## xMatters set up
-1. Steps to create a new Shared Library or (in|out)bound integration or point them to the xMatters online help to cover specific steps; i.e., import a communication plan (link: http://help.xmatters.com/OnDemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)
-2. Add this code to some place on what page:
-   ```
-   var items = [];
-   items.push( { "stuff": "value"} );
-   console.log( 'Do stuff' );
-   ```
-
-
-## Application ABC set up
-Any specific steps for setting up the target application? The more precise you can be, the better!
-
-Images are encouraged. Adding them is as easy as:
-```
-<kbd>
-  <img src="media/cat-tax.png" width="200" height="400">
-</kbd>
-```
-
-<kbd>
-  <img src="media/cat-tax.png" width="200" height="400">
-</kbd>
-
-
-# Testing
-Be specific. What should happen to make sure this code works? What would a user expect to see? 
-
-# Troubleshooting
-Optional section for how to troubleshoot. Especially anything in the source application that an xMatters developer might not know about, or specific areas in xMatters to look for details - like the Activity Stream?
