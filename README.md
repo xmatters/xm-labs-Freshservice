@@ -26,6 +26,10 @@ Since these steps are already built, you now have a drag and droppable environme
 # Installation
 
 ## xMatters set up 
+<br>
+If you want to follow along with a video instead showing how to install, you can follow it [HERE]( https://www.youtube.com/watch?v=jRdzZ2uUx0c)
+<br>
+<br>
 
 1) Download the [FreshserviceITSM.zip](FreshserviceITSM.zip) file and import it into your xMatters instance. Steps to import a Workflow: [Here]( https://help.xmatters.com/ondemand/xmodwelcome/workflows/manage-workflows.htm#Import)
 
