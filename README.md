@@ -27,7 +27,7 @@ Since these steps are already built, you now have a drag and droppable environme
 
 ## xMatters set up 
 <br>
-If you want to follow along with a video instead showing how to install, you can follow it [Here](www.youtube.com/watch?v=jRdzZ2uUx0c)
+If you want to follow along with a video instead showing how to install, you can follow it here: www.youtube.com/watch?v=jRdzZ2uUx0c
 <br>
 <br>
 
