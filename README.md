@@ -13,7 +13,7 @@ Freshservice is a cloud-based IT Help Desk and service management solution that 
 
 # How it works
 xMatters is using Freshservices APIs (V2) to add value with:
-  1) Creating Freshservice Incidents
+  1) Creating Freshservice Incidents (separate documentation can be found [here](https://github.com/dtopham802/xm-labs-step-Create-Freshservice-Incident)
   2) Finding and assigning the correct on-call resource to an incident
   3) Gathering additional on-call resources to help resolve the incident (i.e. notifing, push people into a conference bridge, push people to a chat-ops channel (Slack/MS Teams)
   4) Informing business stakeholders with an FYI notification
