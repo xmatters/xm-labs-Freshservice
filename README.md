@@ -37,7 +37,7 @@ Since these steps are already built, you now have a drag and droppable environme
 
 4) **NOTE** When you imported the Workflow, it also imported 4 steps under the "Custom" Section
 
-   a) Freshservice - Create Incident (for more documentation on this step go HERE)
+   a) Freshservice - Create Incident (for more documentation on this step go [HERE](https://github.com/dtopham802/xm-labs-step-Create-Freshservice-Incident))
    
    b) Freshservice - Create Note
    
