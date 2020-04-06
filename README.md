@@ -9,7 +9,7 @@ Freshservice is a cloud-based IT Help Desk and service management solution that 
 
 # Files
 * [FreshserviceITSM.zip](FreshserviceITSM.zip) - Workflow containing all the communications and steps needed
-* Video file of showing the integration
+* Video file of showing the how to set up integration
 
 # How it works
 xMatters is using Freshservices APIs (V2) to add value with:
