@@ -1,6 +1,14 @@
 # Freshservice
 Freshservice is a cloud-based IT Help Desk and service management solution that enables organizations to simplify their IT operations. The solution offers features that include a ticketing system, self-service portal and knowledge-base. 
 
+---------
+
+<kbd>
+  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</kbd>
+
+---------
+
 **Freshservice integration in action here**
 <br>
 [![Freshservice integration in action here](https://img.youtube.com/vi/jRdzZ2uUx0c/0.jpg)](https://youtu.be/jRdzZ2uUx0c?t=885)
