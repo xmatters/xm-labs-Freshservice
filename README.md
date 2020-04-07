@@ -146,12 +146,12 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Admin form fields.png" width="500">
+  <img src="media/Admin form fields.png" width="700">
 </kbd>
 
 
 <kbd>
-  <img src="media/Ticket Engage with xMatters.png" width="500">
+  <img src="media/Ticket Engage with xMatters.png" width="700">
 </kbd>
 
 
