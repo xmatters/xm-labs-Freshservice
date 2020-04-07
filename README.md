@@ -69,7 +69,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/API User webhook.png" width="500">
+  <img src="media/API User webhook.png" width="800">
 </kbd>
 
 
@@ -85,7 +85,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Agent Email Update Step.png" width="500">
+  <img src="media/Agent Email Update Step.png" width="700">
 </kbd>
 
 
@@ -97,7 +97,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Change Username.png" width="500">
+  <img src="media/Change Username.png" width="700">
 </kbd>
 
 
@@ -110,7 +110,7 @@ If you want to follow along with a video instead showing how to install, you can
 </kbd>
 
 <kbd>
-  <img src="media/Freshservice Endpoint.png" width="500">
+  <img src="media/Freshservice Endpoint.png" width="700">
 </kbd>
 
 
@@ -136,7 +136,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Executives recipients FYI.png" width="500">
+  <img src="media/Executives recipients FYI.png" width="700">
 </kbd>
 
 
@@ -146,12 +146,12 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Admin form fields.png" width="700">
+  <img src="media/Admin form fields.png" width="800">
 </kbd>
 
 
 <kbd>
-  <img src="media/Ticket Engage with xMatters.png" width="700">
+  <img src="media/Ticket Engage with xMatters.png" width="800">
 </kbd>
 
 
@@ -159,7 +159,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Workflow Automator.png" width="500">
+  <img src="media/Workflow Automator.png" width="800">
 </kbd>
 
 
@@ -168,7 +168,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Workflow Automator xMatters Trigger.png" width="500">
+  <img src="media/Workflow Automator xMatters Trigger.png" width="800">
 </kbd>
 
 
@@ -178,7 +178,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Webhook section Freshservice.png" width="500">
+  <img src="media/Webhook section Freshservice.png" width="800">
 </kbd>
 
 
@@ -209,7 +209,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Sender Permission location.png" width="500">
+  <img src="media/Sender Permission location.png" width="900">
 </kbd>
 
 
@@ -223,7 +223,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Update Freshservice Ticket.png" width="500">
+  <img src="media/Update Freshservice Ticket.png" width="900">
 </kbd>
 
 
@@ -244,7 +244,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Public Freshservice Note for FYI.png" width="500">
+  <img src="media/Public Freshservice Note for FYI.png" width="800">
 </kbd>
 
 
@@ -253,6 +253,6 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Flow Designer Activity.png" width="500">
+  <img src="media/Flow Designer Activity.png" width="800">
 </kbd>
 
