@@ -97,7 +97,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Change Username.png" width="700">
+  <img src="media/Change Username.png" width="900">
 </kbd>
 
 
