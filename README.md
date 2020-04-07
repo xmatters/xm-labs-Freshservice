@@ -45,7 +45,7 @@ If you want to follow along with a video instead showing how to install, you can
 3) After being presented with the canvas (see more about Flow Designer 101 [Here]( https://help.xmatters.com/ondemand/xmodwelcome/flowdesigner/laying-out-flow-designer.htm)), double-click on the "Freshservice - Assignment Alert - Freshservice inbound" trigger which should be at the very top of the canvas.
 
 <kbd>
-  <img src="media/Freshservice Inbound.png" width="200" height="400">
+  <img src="media/Freshservice Inbound.png" width="300">
 </kbd>
 
 4) **NOTE** When you imported the Workflow, it also imported 4 steps under the "Custom" Section
