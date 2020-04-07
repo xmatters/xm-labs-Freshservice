@@ -66,30 +66,32 @@ If you want to follow along with a video instead showing how to install, you can
 
 5) In the Authenticating User Dropdown, click the API user (which should have the **REST Web Services User** role) you want to use. Click "Copy" to copy the URL it generates and save it for later. Reference General Notes section on how to create API user in xMatters.
 
+
 <kbd>
   <img src="media/API User webhook.png" width="500">
 </kbd>
+
 
 6) Back on the canvas, double click on "Freshservice - Update Ticket" Step that is attached to the "Acknowledge response option. You will need to modify the Agent Email Input to match with the Freshservice Agent. Typically the work email is attached to the Agent in Freshservice. The example used here is the "respondedTo.by.targetName" which is the "Username" in xMatters which is typically first initial with last name (i.e. bsmith for Bob Smith). If your username in xMatters is not the same as the beginning of your work email in Freshservice, please change it in your xMatters profile (please reference screenshots for this). If they match, then just type your domain of your email where it says "@domain.com".
 
 
 <kbd>
-  <img src="media/Update Freshservice Step FD.png" width="400">
+  <img src="media/Update Freshservice Step FD.png" width="500">
 </kbd>
 
 
 <kbd>
-  <img src="media/Agent Email Update Step.png" width="400">
+  <img src="media/Agent Email Update Step.png" width="500">
 </kbd>
 
 
 <kbd>
-  <img src="media/Profile location.png" width="400">
+  <img src="media/Profile location.png" width="500">
 </kbd>
 
 
 <kbd>
-  <img src="media/Change Username.png" width="400">
+  <img src="media/Change Username.png" width="500">
 </kbd>
 
 
@@ -97,11 +99,11 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Enpoint location.png" width="400">
+  <img src="media/Enpoint location.png" width="500">
 </kbd>
 
 <kbd>
-  <img src="media/Freshservice Endpoint.png" width="400">
+  <img src="media/Freshservice Endpoint.png" width="500">
 </kbd>
 
 
@@ -111,7 +113,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Freshservice Engage with xMatters.png" width="400">
+  <img src="media/Freshservice Engage with xMatters.png" width="500">
 </kbd>
 
 
@@ -119,7 +121,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Freshservice Inform with xMatters.png" width="400">
+  <img src="media/Freshservice Inform with xMatters.png" width="500">
 </kbd>
 
 
@@ -127,7 +129,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Executives recipients FYI.png" width="400">
+  <img src="media/Executives recipients FYI.png" width="500">
 </kbd>
 
 
@@ -137,12 +139,12 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Admin form fields.png" width="400">
+  <img src="media/Admin form fields.png" width="500">
 </kbd>
 
 
 <kbd>
-  <img src="media/Ticket Engage with xMatters.png" width="400">
+  <img src="media/Ticket Engage with xMatters.png" width="500">
 </kbd>
 
 
@@ -150,7 +152,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Workflow Automator.png" width="400">
+  <img src="media/Workflow Automator.png" width="500">
 </kbd>
 
 
@@ -159,7 +161,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Workflow Automator xMatters Trigger.png" width="400">
+  <img src="media/Workflow Automator xMatters Trigger.png" width="500">
 </kbd>
 
 
@@ -169,7 +171,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Webhook section Freshservice.png" width="400">
+  <img src="media/Webhook section Freshservice.png" width="500">
 </kbd>
 
 
@@ -179,7 +181,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Engage checkbox automator.png" width="400">
+  <img src="media/Engage checkbox automator.png" width="500">
 </kbd>
 
 
@@ -189,7 +191,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Inform checkbox automator.png" width="400">
+  <img src="media/Inform checkbox automator.png" width="500">
 </kbd>
 
 
@@ -200,12 +202,12 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Sender Permission location.png" width="400">
+  <img src="media/Sender Permission location.png" width="500">
 </kbd>
 
 
 <kbd>
-  <img src="media/List of sender permission.png" width="400">
+  <img src="media/List of sender permission.png" width="500">
 </kbd>
 
 
@@ -214,7 +216,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Update Freshservice Ticket.png" width="400">
+  <img src="media/Update Freshservice Ticket.png" width="500">
 </kbd>
 
 
@@ -222,7 +224,7 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 <kbd>
-  <img src="media/Freshservice Checkbox Engage and Tag.png" width="400">
+  <img src="media/Freshservice Checkbox Engage and Tag.png" width="500">
 </kbd>
 
 
