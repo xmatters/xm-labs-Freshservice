@@ -74,12 +74,13 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 
+
 6) **NOTE** There is a step back on the canvas, double click on "Freshservice - Update Ticket" Step that is attached to the "Acknowledge response option. In this step, it is leveraging the "Work Email" device in the xMatters user's profile. This email needs to also exist with a Freshservice user in order to update the incident correctly. If this is the case, there is nothing to do here.
 
 
 
 <kbd>
-  <img src="media/Update Freshservice Incident Step FD.png" width="500">
+  <img src="media/Update Freshservice Incident Step FD.png" width="900">
 </kbd>
 
 
@@ -87,6 +88,7 @@ If you want to follow along with a video instead showing how to install, you can
 <kbd>
   <img src="media/Agent Email Update Incident Step.png" width="900">
 </kbd>
+
 
 
 7) On the top right of the canvas, click on "Components", then click on "Endpoints", then "FreshService. Change the "Base URL" to whatever your domain is. Make sure the "Endpoint Type" is Basic. Put the Username and Password in for the Freshservice API user so xMatters can go back to Freshservice and evoke API calls. Double-check that the "Preemptive" box is checked.
