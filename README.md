@@ -18,7 +18,7 @@ Freshservice is a cloud-based IT Help Desk and service management solution that 
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com/signup)!
 
 # Files
-* [FreshserviceITSMv2.zip](FreshserviceITSMv2.zip) - Workflow containing all the communications and steps needed
+* [FreshserviceITSMv3.zip](FreshserviceITSMv3.zip) - Workflow containing all the communications and steps needed
 
 # How it works
 xMatters is using Freshservices APIs (V2) to add value with:
@@ -38,7 +38,7 @@ If you want to follow along with a video instead showing how to install, you can
 <br>
 <br>
 
-1) Download the [FreshserviceITSMv2.zip](FreshserviceITSMv2.zip) file and import it into your xMatters instance. Steps to import a Workflow: [Here]( https://help.xmatters.com/ondemand/xmodwelcome/workflows/manage-workflows.htm#Import)
+1) Download the [FreshserviceITSMv3.zip](FreshserviceITSMv3.zip) file and import it into your xMatters instance. Steps to import a Workflow: [Here]( https://help.xmatters.com/ondemand/xmodwelcome/workflows/manage-workflows.htm#Import)
 
 2) Click on your new Freshservice Workflow, Click "FLOWS", Click "Freshservice Alert"
 
